@@ -1,4 +1,4 @@
-// Write your so
+
 const cats=[
     "Milo",
     "Otis",
@@ -6,7 +6,7 @@ const cats=[
 ]
 beforeEach(function(){
     cats.length=0;
-    cats.push("Milo","Otis","Garfield");
+    cats.push("Milo","Otis","Garfield","");
 });
 function destructivelyAppendCat(name){
     cats.push(name)
